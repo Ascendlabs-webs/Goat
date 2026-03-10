@@ -40,6 +40,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  /* ── Staggered children fade ── */
+  document.querySelectorAll('.stagger-children').forEach(parent => {
+    const children = parent.querySelectorAll(':scope > *');
+    children.forEach((child, i) => {
+      child.classList.add('fade-up');
+      child.style.transitionDelay = `${i * 0.1}s`;
+    });
+  });
+
   /* ── Scroll-triggered fade-up ── */
   const fadeEls = document.querySelectorAll('.fade-up');
   if (fadeEls.length) {
@@ -54,15 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fadeEls.forEach(el => obs.observe(el));
   }
-
-  /* ── Staggered children fade ── */
-  document.querySelectorAll('.stagger-children').forEach(parent => {
-    const children = parent.querySelectorAll(':scope > *');
-    children.forEach((child, i) => {
-      child.classList.add('fade-up');
-      child.style.transitionDelay = `${i * 0.1}s`;
-    });
-  });
 
   /* ── Filter buttons (Available Goats page) ── */
   const filterBtns  = document.querySelectorAll('.filter-btn');
