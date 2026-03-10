@@ -1,0 +1,41 @@
+<svg width="880" height="560" viewBox="0 0 880 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goatsSky" x1="96" y1="54" x2="604" y2="436" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0DD"/>
+      <stop offset="1" stop-color="#D9E7C0"/>
+    </linearGradient>
+    <linearGradient id="goatsField" x1="120" y1="318" x2="794" y2="526" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FB46D"/>
+      <stop offset="1" stop-color="#3F6A35"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="560" rx="36" fill="#204520"/>
+  <rect x="28" y="28" width="824" height="504" rx="24" fill="url(#goatsSky)"/>
+  <circle cx="674" cy="126" r="44" fill="#FFF2B8"/>
+  <path d="M28 366C134 302 244 296 352 328C462 360 584 364 704 328C770 308 820 314 852 338V532H28V366Z" fill="url(#goatsField)"/>
+  <path d="M28 430C126 394 230 392 340 424C464 460 600 462 734 426C800 408 834 408 852 414V532H28V430Z" fill="#2E5D2E" opacity="0.64"/>
+  <g opacity="0.98">
+    <ellipse cx="250" cy="336" rx="74" ry="48" fill="#FAF5EA"/>
+    <circle cx="318" cy="308" r="28" fill="#FAF5EA"/>
+    <ellipse cx="336" cy="300" rx="10" ry="14" fill="#FAF5EA"/>
+    <path d="M294 296L306 274L320 292" stroke="#8B5E3C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M316 296L330 274L344 292" stroke="#8B5E3C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="206" y="380" width="12" height="74" rx="6" fill="#5C3317"/>
+    <rect x="248" y="380" width="12" height="74" rx="6" fill="#5C3317"/>
+    <rect x="288" y="380" width="12" height="74" rx="6" fill="#5C3317"/>
+    <rect x="324" y="380" width="12" height="74" rx="6" fill="#5C3317"/>
+  </g>
+  <g opacity="0.98">
+    <ellipse cx="530" cy="360" rx="84" ry="54" fill="#2D2D2D"/>
+    <circle cx="606" cy="326" r="32" fill="#2D2D2D"/>
+    <ellipse cx="628" cy="316" rx="10" ry="14" fill="#2D2D2D"/>
+    <path d="M576 312L592 284L608 308" stroke="#D9C9A8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M604 312L620 284L636 308" stroke="#D9C9A8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="474" y="410" width="12" height="82" rx="6" fill="#1A2410"/>
+    <rect x="526" y="410" width="12" height="82" rx="6" fill="#1A2410"/>
+    <rect x="574" y="410" width="12" height="82" rx="6" fill="#1A2410"/>
+    <rect x="620" y="410" width="12" height="82" rx="6" fill="#1A2410"/>
+  </g>
+  <rect x="80" y="74" width="142" height="48" rx="14" fill="#FFFFFF" fill-opacity="0.22"/>
+  <rect x="102" y="94" width="84" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.72"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="listingDarkSky" x1="90" y1="50" x2="520" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0DD"/>
+      <stop offset="1" stop-color="#D6E7C0"/>
+    </linearGradient>
+    <linearGradient id="listingDarkGround" x1="86" y1="260" x2="620" y2="446" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FB36D"/>
+      <stop offset="1" stop-color="#426E39"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" rx="28" fill="#1C3A1C"/>
+  <rect x="20" y="20" width="680" height="440" rx="18" fill="url(#listingDarkSky)"/>
+  <circle cx="560" cy="120" r="36" fill="#FFF2B8"/>
+  <path d="M20 316C118 258 214 250 308 280C410 312 514 314 616 284C654 272 682 272 700 280V460H20V316Z" fill="url(#listingDarkGround)"/>
+  <g opacity="0.98">
+    <ellipse cx="334" cy="286" rx="114" ry="66" fill="#2E2E2E"/>
+    <circle cx="438" cy="242" r="40" fill="#2E2E2E"/>
+    <ellipse cx="464" cy="230" rx="12" ry="18" fill="#2E2E2E"/>
+    <path d="M392 226L412 188L432 220" stroke="#D9C9A8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M426 226L448 188L468 220" stroke="#D9C9A8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="248" y="340" width="14" height="98" rx="7" fill="#1A2410"/>
+    <rect x="306" y="340" width="14" height="98" rx="7" fill="#1A2410"/>
+    <rect x="362" y="340" width="14" height="98" rx="7" fill="#1A2410"/>
+    <rect x="422" y="340" width="14" height="98" rx="7" fill="#1A2410"/>
+    <rect x="396" y="244" width="44" height="10" rx="5" fill="#FFF2B8"/>
+  </g>
+</svg>
